@@ -450,6 +450,5 @@
 	<copyfile src="build.sh" dest="build.sh"/>
 	<copyfile src="patch.sh" dest="patch.sh"/>
   </project>
-
-
+  
 </manifest>
