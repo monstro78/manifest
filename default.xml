@@ -430,6 +430,26 @@
   <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
+  
+  <!--CyanogenMod SamsungServiceMode -->
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
+
+  <!-- My source-->
+  <project path="android" name="shine911/android" remote="github" revision="codina-aospa" />
+  <project path="device/samsung/codina" name="shine911/android_device_samsung_codina" remote="github" revision="aospa" />
+  <project path="device/samsung/codinap" name="shine911/android_device_samsung_codinap" remote="github" revision="aospa" />
+  <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" remote="github" revision="cm-11.0" />
+
+  <!-- TeamCanjica Codina Source And Chrono Kernel-->
+  <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/u8500" name=" ChronoMonochrome/Chrono_Kernel" remote="github" revision="stable" />
+  <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-11.0" />
+  
+  <!-- STE U8500 PATCHES -->
+  <project path="patch" name="shine911/build" remote="github" revision="aospa">
+	<copyfile src="build.sh" dest="build.sh"/>
+	<copyfile src="patch.sh" dest="patch.sh"/>
+  </project>
 
 
 </manifest>
