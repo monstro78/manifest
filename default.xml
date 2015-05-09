@@ -434,10 +434,8 @@
   <!--CyanogenMod SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
 
-  <!--Shine911 source-->
-  <project path="android" name="shine911/android" remote="github" revision="codina-aospa" />
-  
-  <!-- TeamCanjica And Chrono Codina Source-->
+
+    <!-- TeamCanjica And Chrono Codina Source-->
   <project path="device/samsung/codina" name="ChronoMonochrome/android_device_samsung_codina" remote="github" revision="cm-11.0" />
   <project path="device/samsung/codinap" name="TeamCanjica/android_device_samsung_codinap" revision="cm-11.0" />
   <project path="device/samsung/u8500-common" name="ChronoMonochrome/android_device_samsung_u8500-common" remote="github" revision="cm-11.0" />
