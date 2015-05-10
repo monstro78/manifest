@@ -434,7 +434,8 @@
   <!--CyanogenMod SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
 
-
+  <project path="android" name="monstro78/manifest" remote="github" revision="kitkat" />
+  
     <!-- TeamCanjica And Chrono Codina Source-->
   <project path="device/samsung/codina" name="ChronoMonochrome/android_device_samsung_codina" remote="github" revision="cm-11.0" />
   <project path="device/samsung/codinap" name="TeamCanjica/android_device_samsung_codinap" remote="github" revision="cm-11.0" />
