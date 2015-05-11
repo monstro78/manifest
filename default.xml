@@ -436,9 +436,9 @@
 
   <project path="android" name="monstro78/manifest" remote="github" revision="kitkat" />
   
-    <!-- TeamCanjica And Chrono Codina Source-->
-  <project path="device/samsung/codina" name="ChronoMonochrome/android_device_samsung_codina" remote="github" revision="cm-11.0" />
-  <project path="device/samsung/codinap" name="TeamCanjica/android_device_samsung_codinap" remote="github" revision="cm-11.0" />
+    <!-- TeamCanjica Shine911 And Chrono Codina Source-->
+  <project path="device/samsung/codina" name="Shine911/android_device_samsung_codina" remote="github" revision="aospa" />
+  <project path="device/samsung/codinap" name="Shine911/android_device_samsung_codinap" remote="github" revision="aospa" />
   <project path="device/samsung/u8500-common" name="ChronoMonochrome/android_device_samsung_u8500-common" remote="github" revision="cm-11.0" />
   <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" remote="github" revision="cm-11.0" />
   <project path="kernel/samsung/u8500" name="ChronoMonochrome/Chrono_Kernel" remote="github" revision="stable" />
